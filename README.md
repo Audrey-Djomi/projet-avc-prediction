@@ -28,3 +28,7 @@ L'objectif de ce projet est d'explorer les caractéristiques médicales et démo
 - Git
 - GitHub
 
+## Statut
+
+🚧 Projet en cours
+

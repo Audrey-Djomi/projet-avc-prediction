@@ -21,6 +21,71 @@ Démarrer un nouveau projet Data Analytics orienté santé afin d'étudier les f
 - Identification des principaux facteurs de risque étudiés : âge, hypertension, maladie cardiaque, IMC, glycémie et tabagisme.
 - Préparation du notebook d'exploration pour la compréhension et l'analyse des données.
 
+## Jour 2- Exploration du dataset
+
+Le dataset sélectionné contient 5 110 observations et 12 variables.
+
+Chaque ligne représente un patient et comprend des informations démographiques, médicales et comportementales telles que l'âge, le sexe, l'hypertension, les maladies cardiaques, l'IMC, la glycémie et le statut tabagique.
+Cette structure permet d'étudier les facteurs potentiellement associés au risque d'AVC.
+
+La variable cible du projet est `stroke`, indiquant si le patient a subi un AVC (1) ou non (0).
+
+L'analyse de la structure des données montre une combinaison de variables numériques, binaires et catégorielles permettant d'étudier différents facteurs de risque associés aux AVC.
+
+### Qualité des données
+
+- Aucun doublon n'a été identifié.
+- Une seule variable présente des valeurs manquantes : `bmi`.
+- 201 observations sont concernées, soit environ 3,9 % du jeu de données.
+
+### Premières observations
+
+- Âge moyen : 43 ans.
+- 9,7 % des patients présentent une hypertension.
+- 5,4 % présentent une maladie cardiaque.
+- 4,9 % des patients ont subi un AVC.
+
+La variable cible `stroke` apparaît fortement déséquilibrée avec une majorité de patients n'ayant pas subi d'AVC.
+### Analyse des variables catégorielles
+
+L'exploration met en évidence une forte majorité de patients n'ayant pas subi d'AVC (95,1 % contre 4,9 %).
+
+La population étudiée est composée majoritairement de femmes (58,6 %).
+
+La variable `smoking_status` présente une proportion importante de patients dont le statut tabagique est inconnu (environ 30 % des observations).
+
+Les populations urbaines et rurales sont représentées de manière relativement équilibrée.
+
+Une première analyse suggère un taux d'AVC légèrement plus élevé chez les hommes que chez les femmes, bien que l'écart reste limité.
+
+### Analyse préliminaire de l'âge
+
+Une comparaison de l'âge moyen selon la survenue d'un AVC met en évidence une différence importante entre les deux groupes.
+
+- Patients sans AVC : 42 ans en moyenne
+- Patients avec AVC : 67,7 ans en moyenne
+
+L'écart observé d'environ 26 ans suggère une forte association entre l'âge et le risque d'AVC. Cette variable apparaît comme un facteur majeur à investiguer dans les analyses suivantes.
+
+### Analyse des facteurs de risque
+
+Une analyse croisée entre les caractéristiques médicales des patients et la survenue d'un AVC met en évidence plusieurs associations importantes.
+
+#### Âge
+
+Les patients ayant subi un AVC présentent un âge moyen de 67,7 ans contre 42 ans pour les autres patients.
+
+#### Hypertension
+
+Le taux d'AVC atteint 13,3 % chez les patients hypertendus contre 4,0 % chez les patients non hypertendus.
+
+#### Maladie cardiaque
+
+Les patients atteints d'une maladie cardiaque présentent un taux d'AVC de 17 %, contre 4,2 % chez les autres patients.
+
+Ces premiers résultats suggèrent que l'âge, l'hypertension et les maladies cardiaques constituent les principaux facteurs associés au risque d'AVC dans ce jeu de données.
+
+
 ### Prochaines étapes
 
 - Réaliser l'analyse exploratoire des données

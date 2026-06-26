@@ -84,10 +84,22 @@ Le taux d'AVC atteint 13,3 % chez les patients hypertendus contre 4,0 % chez les
 Les patients atteints d'une maladie cardiaque présentent un taux d'AVC de 17 %, contre 4,2 % chez les autres patients.
 
 Ces premiers résultats suggèrent que l'âge, l'hypertension et les maladies cardiaques constituent les principaux facteurs associés au risque d'AVC dans ce jeu de données.
+#### Glycémie
 
+Les patients ayant subi un AVC présentent une glycémie moyenne de 132,5 contre 104,8 chez les autres patients.
+
+#### IMC
+
+L'IMC moyen est légèrement plus élevé chez les patients ayant subi un AVC (30,5 contre 28,8).
+
+#### Tabagisme
+
+Le taux d'AVC le plus élevé est observé chez les anciens fumeurs (7,9 %), suivi des fumeurs actuels (5,3 %) et des non-fumeurs (4,8 %).
+
+Ces résultats suggèrent une association entre certaines habitudes de vie et la survenue d'un AVC, bien que des analyses complémentaires soient nécessaires pour tenir compte de facteurs de confusion tels que l'âge.
 
 ### Prochaines étapes
-
-- Réaliser l'analyse exploratoire des données
-- Identifier les variables et leur signification
-- Vérifier la qualité des données (valeurs manquantes, doublons, types)
+- début nettoyage : prise de décisions sur la variable
+- bmi qui contient 201 valeurs manquantes
+- gender pour le sexe Other
+- smoking_status pour Unknown

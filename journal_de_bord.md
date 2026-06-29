@@ -103,3 +103,13 @@ Ces résultats suggèrent une association entre certaines habitudes de vie et la
 - bmi qui contient 201 valeurs manquantes
 - gender pour le sexe Other
 - smoking_status pour Unknown
+
+## Jour 3- Debut Nettoyage du dataset
+### Traitement des valeurs manquantes
+
+La variable `bmi` présentait 201 valeurs manquantes, soit 3,93 % du jeu de données.
+
+L'analyse de la distribution a montré une légère asymétrie à droite ainsi que la présence de valeurs extrêmes (IMC maximal de 97,6).
+
+Afin de conserver l'ensemble des observations tout en limitant l'influence des valeurs extrêmes, les valeurs manquantes ont été imputées par la médiane (28,1), méthode plus robuste que la moyenne dans ce contexte.
+

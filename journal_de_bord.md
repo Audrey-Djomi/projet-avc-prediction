@@ -113,3 +113,16 @@ L'analyse de la distribution a montré une légère asymétrie à droite ainsi q
 
 Afin de conserver l'ensemble des observations tout en limitant l'influence des valeurs extrêmes, les valeurs manquantes ont été imputées par la médiane (28,1), méthode plus robuste que la moyenne dans ce contexte.
 
+## Jour 4 - Fin nettoyage du dataset
+
+###  Nettoyage des données
+
+Les décisions suivantes ont été prises pour préparer les données :
+
+- La colonne `id`, utilisée uniquement comme identifiant technique, a été supprimée car elle n'apporte aucune information utile à l'analyse.
+- L'unique observation appartenant à la catégorie `Other` de la variable `gender` a été exclue en raison de son effectif insuffisant.
+- La catégorie `Unknown` de la variable `smoking_status` a été conservée, car elle constitue une information à part entière et concerne une proportion importante des observations.
+
+À l'issue de cette étape, le jeu de données contient 5 109 observations, 11 variables et aucune valeur manquante.
+- Nous avons stocker notre dataset stroke clean dans notre repertoir data. Nous l'utiliserons pour la suite de nos analyses, ainsi que sur Power BI.
+

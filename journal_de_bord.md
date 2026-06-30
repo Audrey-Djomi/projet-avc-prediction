@@ -126,3 +126,55 @@ Les décisions suivantes ont été prises pour préparer les données :
 À l'issue de cette étape, le jeu de données contient 5 109 observations, 11 variables et aucune valeur manquante.
 - Nous avons stocker notre dataset stroke clean dans notre repertoir data. Nous l'utiliserons pour la suite de nos analyses, ainsi que sur Power BI.
 
+# Analyse approfondie des données
+
+Après le nettoyage du jeu de données, une analyse comparative a été réalisée entre les patients ayant subi un AVC (`stroke = 1`) et ceux n'en ayant pas subi (`stroke = 0`).
+
+## Profil moyen des patients
+
+Un tableau de synthèse a permis de comparer plusieurs variables quantitatives.
+
+Les principaux résultats sont les suivants :
+
+- Les patients ayant subi un AVC sont en moyenne beaucoup plus âgés (67,73 ans contre 41,97 ans).
+- Leur glycémie moyenne est plus élevée (132,54 contre 104,79).
+- Ils présentent plus fréquemment une hypertension (27 % contre 9 %).
+- Les maladies cardiaques sont également plus fréquentes chez les patients victimes d'un AVC (19 % contre 5 %).
+- L'IMC est légèrement supérieur chez les patients ayant subi un AVC (30,09 contre 28,80), mais l'écart reste relativement faible.
+
+## Analyse des variables qualitatives
+
+Plusieurs variables catégorielles ont ensuite été étudiées à l'aide de tableaux croisés (`crosstab`).
+
+### Sexe
+
+La proportion d'AVC est proche entre les hommes (5,1 %) et les femmes (4,7 %). Cette variable ne semble pas constituer un facteur fortement discriminant dans ce jeu de données.
+
+### Situation matrimoniale
+
+Les personnes mariées présentent une proportion plus élevée d'AVC (6,6 %) que les personnes non mariées (1,7 %). Toutefois, cette différence est probablement influencée par l'âge, les personnes mariées étant généralement plus âgées.
+
+### Type d'emploi
+
+Les travailleurs indépendants ("Self-employed") présentent la proportion d'AVC la plus élevée (7,9 %). Ce résultat devra être interprété avec prudence, l'âge pouvant également expliquer une partie de cette différence.
+
+### Lieu de résidence
+
+Les proportions observées entre les zones urbaines (5,2 %) et rurales (4,5 %) sont très proches. Aucune différence majeure n'a été mise en évidence.
+
+### Tabagisme
+
+Les anciens fumeurs ("Formerly smoked") présentent la proportion d'AVC la plus élevée (7,9 %), suivis des fumeurs actuels (5,3 %) puis des personnes n'ayant jamais fumé (4,8 %). Comme pour d'autres variables, l'effet de l'âge devra être pris en compte avant toute conclusion.
+
+## Conclusion
+
+Cette analyse confirme que les facteurs les plus fortement associés à la survenue d'un AVC dans ce jeu de données sont :
+
+- l'âge ;
+- l'hypertension ;
+- la glycémie ;
+- les maladies cardiaques.
+
+À l'inverse, le sexe, le lieu de résidence et l'IMC semblent présenter une association plus limitée.
+
+Ces résultats serviront de base à la conception du dashboard Power BI et à la synthèse finale du projet.

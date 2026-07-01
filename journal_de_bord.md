@@ -178,3 +178,36 @@ Cette analyse confirme que les facteurs les plus fortement associés à la surve
 À l'inverse, le sexe, le lieu de résidence et l'IMC semblent présenter une association plus limitée.
 
 Ces résultats serviront de base à la conception du dashboard Power BI et à la synthèse finale du projet.
+
+
+# Jour 5: Préparation des données pour la visualisation
+
+Après avoir identifié les principaux facteurs associés à la survenue d'un AVC, une phase de préparation des données a été engagée afin de faciliter la construction du futur tableau de bord Power BI.
+
+## Création de la table des indicateurs (KPI)
+
+Une première table de synthèse (`table_kpi`) a été créée afin de regrouper les principaux indicateurs du projet :
+
+- nombre total de patients 
+- nombre de patients ayant subi un AVC 
+- taux d'AVC 
+- âge moyen de la population 
+- glycémie moyenne 
+- IMC moyen.
+
+Cette table sera utilisée pour alimenter les cartes KPI du dashboard.
+
+## Création des classes d'âge
+
+Afin d'améliorer l'analyse des facteurs associés à l'AVC, la variable « âge » a été transformée en classes :
+
+- 0–20 ans
+- 21–40 ans
+- 41–60 ans
+- 61–80 ans
+- 81 ans et plus
+
+Cette transformation permettra d'étudier la répartition des patients et le taux d'AVC selon les différentes classes d'âge, offrant une analyse plus pertinente qu'une simple moyenne.
+
+## Prochaine étape
+La prochaine étape consistera à finaliser les tables de synthèse (table_age, table_catégorie, table_patient) puis importer les données dans Power BI afin de concevoir un tableau de bord interactif mettant en évidence les principaux facteurs associés à la survenue d'un AVC.

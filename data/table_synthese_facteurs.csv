@@ -1,0 +1,10 @@
+Facteurs,Observations,Niveau d'Association,Interprétation
+Âge,+25.6 ans,*****,Facteur fortement associé au risque d'AVC
+Glycémie,"+27,75 mg/dL",****,Glycémie moyenne plus élevée chez les patients AVC
+Hypertension,27 % vs 9 %,****,Plus importante chez les patients AVC
+Maladie Cardiaque,19 % vs 5 %,****,Plus fréquentes chez les patients AVC
+IMC,+1.29,**,Différence faible
+Tabagisme,7.9 % chez les anciens fumeurs,**,Association observée mais probablement influencée par l'âge
+Sexe,5.1 % vs 4.7 %,*,Différence très faible
+Residence,5.2 % vs 4.5 %,*,Aucune différence majeure observée
+Situation Matrimoniale,6.6 % vs 1.7 %,**,Résultat probablement lié à l'âge

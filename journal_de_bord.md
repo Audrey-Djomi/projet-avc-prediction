@@ -209,5 +209,9 @@ Afin d'améliorer l'analyse des facteurs associés à l'AVC, la variable « âge
 
 Cette transformation permettra d'étudier la répartition des patients et le taux d'AVC selon les différentes classes d'âge, offrant une analyse plus pertinente qu'une simple moyenne.
 
+# Jour 6: Réalisation des tables à utiliser pour la suite
+- Finaliser les tables de synthèse table_age, table_facteurs, table_genre.
+- Importer les données dans Power BI afin de concevoir un tableau de bord interactif mettant en évidence les principaux facteurs associés à la survenue d'un AVC.
+
 ## Prochaine étape
-La prochaine étape consistera à finaliser les tables de synthèse (table_age, table_catégorie, table_patient) puis importer les données dans Power BI afin de concevoir un tableau de bord interactif mettant en évidence les principaux facteurs associés à la survenue d'un AVC.
+La prochaine étape consistera à réaliser nos dashboards

@@ -95,6 +95,19 @@ Par exemple :
 
 ![Exploration profil patient](images/image_3_Exploration_profil_patient.png)
 
+## Dashboard 
+
+Ce dossier contient le tableau de bord Power BI (.pbix) développé dans le cadre du projet d'analyse des facteurs associés à la survenue d'un AVC.
+
+Le dashboard est composé de quatre pages :
+
+- Page de couverture
+- Vue d'ensemble de la population
+- Analyse des facteurs associés à la survenue d'un AVC
+- Exploration interactive des profils de patients
+
+Des captures d'écran du dashboard sont également disponibles dans le dossier `images'
+
 ## Compétences développées
 
 Nettoyage des données

@@ -79,6 +79,10 @@ Par exemple :
 
 ## Dashboard
 
+### Page de couverture
+
+![Page de couverture](images/image_0_page_couverture.png)
+
 ### Vue d'ensemble
 
 ![Vue d'ensemble](images/image_1_Vue_ensemble.png)

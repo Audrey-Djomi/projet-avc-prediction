@@ -262,3 +262,9 @@ Vérification de la mise à jour dynamique des indicateurs et des graphiques.
 - Comprendre pourquoi les KPI ne se mettaient pas à jour avec les filtres.
 - Identifier un filtre actif qui modifiait les résultats des mesures DAX.
 - Choisir la meilleure architecture entre des tables agrégées et une table principale unique.
+
+# Jour 12: Relecture de l'ensemble du projet
+
+- Vérification de l'ensemble de nos dossiers
+- Vérification du fonctionnement de chaque lien
+- Finalisation 

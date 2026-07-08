@@ -213,5 +213,52 @@ Cette transformation permettra d'étudier la répartition des patients et le tau
 - Finaliser les tables de synthèse table_age, table_facteurs, table_genre.
 - Importer les données dans Power BI afin de concevoir un tableau de bord interactif mettant en évidence les principaux facteurs associés à la survenue d'un AVC.
 
-## Prochaine étape
-La prochaine étape consistera à réaliser nos dashboards
+# Jour 7: Relecture  de nos fichiers py
+
+# Jour 8 : Réalisation des dashboards sur Power BI
+
+ - Vue d'ensemble de la population étudiée
+
+Remplacement des indicateurs issus d'une table dédiée par des mesures DAX calculées directement à partir de table Patients. Car nous  recherchions l'interactivité.
+Vérification du fonctionnement des KPI dynamiques.
+Identification et correction d'un filtre actif qui faussait le calcul du nombre total de patients.
+
+ # Jour 9 : Suite des dashboards sur Power BI
+
+ - Facteurs associés à la survenue de l'AVC : 
+    - Création des visualisations comparatives entre les patients avec et sans AVC.
+- Mise en évidence des principaux facteurs étudiés :
+âge moyen,
+glycémie moyenne,
+IMC moyen,
+hypertension,
+maladies cardiaques.
+Ajout de courtes interprétations afin de faciliter la lecture des résultats.
+
+- Création d'une colonne Classe_age dans table_patient afin de rendre les filtres sur les tranches d'âge interactifs.
+Conservation de la table table_age pour l'affichage du taux d'AVC par classe d'âge.
+
+# Jour 10 : Finalisation du dashboard Power BI
+
+- Finaliser le tableau de bord Power BI avec l'exploration des profils patients, tout en en améliorant l'interactivité, la présentation et l'expérience utilisateur.
+
+Ajout de segments (slicers) permettant de filtrer les données selon :
+le sexe,
+la tranche d'âge,
+le statut tabagique,
+l'hypertension,
+les maladies cardiaques,
+le type d'emploi.
+Vérification de la mise à jour dynamique des indicateurs et des graphiques.
+
+# Jour 11 : Amélioration de la présentation
+- Réalisation de la page de couverture
+- Réorganisation des visuels.
+- Harmonisation des couleurs et des titres.
+- Tri correct des classes d'âge.
+- Réflexion sur l'ajout d'une navigation entre les pages et sur l'amélioration de l'expérience utilisateur (Nos pages sont déjà assez chargées et il y'a pas assez de pages donc pas très nécessaire, nous avons laissé l'idée).
+
+# Difficultés rencontrées
+- Comprendre pourquoi les KPI ne se mettaient pas à jour avec les filtres.
+- Identifier un filtre actif qui modifiait les résultats des mesures DAX.
+- Choisir la meilleure architecture entre des tables agrégées et une table principale unique.
